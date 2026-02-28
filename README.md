@@ -2,7 +2,7 @@
 
 A Machine Learning based **Natural Language Processing (NLP)** project designed to analyze and classify customer feedback. This model utilizes **Bernoulli Naive Bayes** to identify sentiments with exceptional precision, helping businesses understand customer satisfaction.
 
-🌐 **Live App:** [https://amazon-sentiment-analysis.streamlit.app/](https://amazon-sentiment-analysis.streamlit.app/)
+🌐 **Live App:** [https://sentiment-analysis-on-amazon.streamlit.app/](https://sentiment-analysis-on-amazon.streamlit.app/)
 
 ## 🚀 Live Demo
 Run the Streamlit app to input any product review and get instant sentiment classification.
@@ -45,7 +45,7 @@ Built using **Python** and **Scikit-Learn**:
 
 1️⃣ **Clone the Repository**
 ```bash
-git clone [https://github.com/mehedi-hasan00/Amazon-Sentiment-Analysis.git](https://github.com/mehedi-hasan00/Amazon-Sentiment-Analysis.git)
+git clone [https://github.com/mehedi-hasan00/Sentiment_Analysis_on_Amazon_Product_Reviews.git](https://github.com/mehedi-hasan00/Sentiment_Analysis_on_Amazon_Product_Reviews.git)
 cd Amazon-Sentiment-Analysis
 ```
 
