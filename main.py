@@ -1,13 +1,13 @@
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('punkt_tab')
-
 import streamlit as st
 import pickle
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import string
+
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('punkt_tab')
 
 model = pickle.load(open('model.pkl', 'rb'))
 
