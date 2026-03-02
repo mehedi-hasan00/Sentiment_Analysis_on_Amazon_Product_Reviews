@@ -21,7 +21,7 @@ By utilizing **NLP Pre-processing** and **Bernoulli Naive Bayes**, the model foc
 
 ## 📊 Model Performance & Comparison
 
-We evaluated several models, and while others showed high recall, **Bernoulli NB** was selected for its superior **Precision**.
+I evaluated several models, and while others showed high recall, **Bernoulli NB** was selected for its superior **Precision**.
 
 | Model | Accuracy | Precision | Recall |
 | :--- | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ We evaluated several models, and while others showed high recall, **Bernoulli NB
 | GBDT | 0.858 | 0.858 | 0.974 |
 
 ### 🏆 Why Bernoulli NB?
-We prioritized **Precision (96.0%)** because, from a business perspective, misclassifying a negative complaint as "Positive" is more damaging than missing a few positive ones. Bernoulli NB effectively minimized False Positives (only 132 cases).
+I prioritized **Precision (96.0%)** because, from a business perspective, misclassifying a negative complaint as "Positive" is more damaging than missing a few positive ones. Bernoulli NB effectively minimized False Positives (only 132 cases).
 
 ## 🛠️ Tech Stack & Architecture
 Built using **Python** and **Scikit-Learn**:
@@ -85,13 +85,15 @@ nltk
 ```
 
 ## 📈 Deep Learning Extension (LSTM)
-We also experimented with **LSTM (Long Short-Term Memory)** to capture sequential patterns:
+I also experimented with **LSTM (Long Short-Term Memory)** to capture sequential patterns:
 * **Accuracy:** 85.32%
 * **Precision:** 92.40%
 * **F1 Score:** 90.11%
 * **Confusion Matrix:** `[[738, 220], [367, 2675]]`
 
+---
+
 ## 👤 Author
 **Mehedi Hasan**
-🔗 **LinkedIn:** [https://www.linkedin.com/in/mehedi-hasan-094855388/](https://www.linkedin.com/in/mehedi-hasan-094855388/)
-🔗 **Kaggle:** [https://www.kaggle.com/mehedi71](https://www.kaggle.com/mehedi71)
+* 🔗 LinkedIn: [https://www.linkedin.com/in/mehedi-hasan-094855388/](https://www.linkedin.com/in/mehedi-hasan-094855388/)
+* 🔗 Kaggle: [https://www.kaggle.com/mehedi71](https://www.kaggle.com/mehedi71)
