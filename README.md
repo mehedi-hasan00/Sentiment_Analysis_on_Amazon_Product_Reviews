@@ -33,8 +33,11 @@ I evaluated several models, and while others showed high recall, **Bernoulli NB*
 
 ### 🏆 Why Bernoulli NB?
 I prioritized **Precision (96.0%)** because, from a business perspective, misclassifying a negative complaint as "Positive" is more damaging than missing a few positive ones. Bernoulli NB effectively minimized False Positives (only 113 cases).
-`#### Confusion Matrix`:   [ 845  113]
-                           [ 291 2751]
+#### Confusion Matrix:
+```
+[[ 845   113]
+ [ 291  2751]]
+```
 
 ## 🛠️ Tech Stack & Architecture
 Built using **Python** and **Scikit-Learn**:
